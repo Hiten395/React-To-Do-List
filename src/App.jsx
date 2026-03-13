@@ -55,7 +55,7 @@ function App() {
                     </div>
                 </main>
 
-                <footer>Built for students • Minimal • Mindful</footer>
+                <footer id="footer">Built for students • Minimal • Mindful</footer>
             </div>
 
             <div className="right">
