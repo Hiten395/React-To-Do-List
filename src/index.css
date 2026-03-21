@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+#main {
+    min-height: 200px;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -51,6 +55,15 @@ button {
 
 button:hover {
   border-color: #646cff;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
 }
 
 button:focus,
